@@ -51,6 +51,8 @@ public interface Console {
     @ScriptInterface
     void setMaxLines(int maxLines);
 
+    boolean isAutoHide();
+
     String println(int level, CharSequence charSequence);
 
     /**

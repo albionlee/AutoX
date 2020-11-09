@@ -22,4 +22,9 @@ app/common/release/app-common-release.aab
 app/common/release/output-metadata.json
 *.log
 /ocr
+<<<<<<< HEAD
 /apkbuilder
+=======
+/autojs/.cxx
+settings.gradle
+>>>>>>> 741c1fdf (Feature market (#16))
