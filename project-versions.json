@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "appVersionCode": 477,
   "appVersionName": "4.2.15",
   "devVersionCode": 477,
@@ -12,6 +13,10 @@
   "appVersionCode": 481,
   "appVersionName": "4.2.19",
 >>>>>>> 20df6fbd (升级掉4.1.9)
+=======
+  "appVersionCode": 482,
+  "appVersionName": "5.0.1",
+>>>>>>> fbc4a2f9 (升级到5.0.1)
   "devVersionCode": 480,
   "devVersionName": "4.2.17.dev",
 >>>>>>> 1cb1d7c1 (规划路径4.2.18准备升级到5.0)
