@@ -16,10 +16,15 @@
 =======
   "appVersionCode": 482,
   "appVersionName": "5.0.1",
+<<<<<<< HEAD
 >>>>>>> fbc4a2f9 (升级到5.0.1)
   "devVersionCode": 480,
   "devVersionName": "4.2.17.dev",
 >>>>>>> 1cb1d7c1 (规划路径4.2.18准备升级到5.0)
+=======
+  "devVersionCode": 485,
+  "devVersionName": "5.2.0.dev",
+>>>>>>> b8709d3a (升级到5.2.0 dev 版)
   "target": 26,
   "mini": 19,
   "compile": 29,
