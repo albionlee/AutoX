@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "appVersionCode": 477,
   "appVersionName": "4.2.15",
   "devVersionCode": 477,
@@ -25,6 +26,12 @@
   "devVersionCode": 485,
   "devVersionName": "5.2.0.dev",
 >>>>>>> b8709d3a (升级到5.2.0 dev 版)
+=======
+  "appVersionCode": 488,
+  "appVersionName": "5.2.0",
+  "devVersionCode": 485,
+  "devVersionName": "5.1.0",
+>>>>>>> ff3b5dc6 (发布应用 商店 版本)
   "target": 26,
   "mini": 19,
   "compile": 29,
