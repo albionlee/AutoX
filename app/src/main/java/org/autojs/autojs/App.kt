@@ -1,12 +1,14 @@
 package org.autojs.autojs
 
 import android.annotation.SuppressLint
+import android.app.Application
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.net.Uri
-import androidx.multidex.MultiDexApplication
+import android.util.Log
+//import androidx.multidex.MultiDexApplication
 import android.view.View
 import android.widget.ImageView
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
@@ -30,6 +32,7 @@ import org.autojs.autojs.timing.TimedTaskManager
 import org.autojs.autojs.timing.TimedTaskScheduler
 import org.autojs.autojs.tool.CrashHandler
 import org.autojs.autojs.ui.error.ErrorReportActivity
+import com.stardust.autojs.util.OcrHelper
 import java.lang.ref.WeakReference
 import java.util.*
 
@@ -37,7 +40,7 @@ import java.util.*
  * Created by Stardust on 2017/1/27.
  */
 
-class App : MultiDexApplication() {
+class App : Application() {
     lateinit var dynamicBroadcastReceivers: DynamicBroadcastReceivers
         private set
 
@@ -87,6 +90,9 @@ class App : MultiDexApplication() {
         setupDrawableImageLoader()
         TimedTaskScheduler.init(this)
         initDynamicBroadcastReceivers()
+        OcrHelper.getInstance().initIfNeeded {
+            Log.d(LOG_TAG, "Ocr init success...")
+        }
     }
 
     @SuppressLint("CheckResult")
@@ -165,6 +171,7 @@ class App : MultiDexApplication() {
 
     companion object {
 
+        private const val LOG_TAG = "[OCR][App]"
         private val TAG = "App"
         private val BUGLY_APP_ID = "19b3607b53"
 
