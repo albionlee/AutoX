@@ -23,3 +23,6 @@ app/common/release/output-metadata.json
 *.log
 autojs/.cxx/ndk_locator_record_68547592.json
 autojs/.cxx/ndk_locator_record_68547592_key.json
+/ocr
+/autojs/.cxx
+settings.gradle

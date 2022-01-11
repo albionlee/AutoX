@@ -51,7 +51,9 @@ public class MutableOkHttp extends OkHttpClient {
     protected OkHttpClient newClient(Builder builder) {
         builder.readTimeout(getTimeout(), TimeUnit.MILLISECONDS)
                 .writeTimeout(getTimeout(), TimeUnit.MILLISECONDS)
-                .connectTimeout(getTimeout(), TimeUnit.MILLISECONDS);
+                .connectTimeout(getTimeout(), TimeUnit.MILLISECONDS)
+                .sslSocketFactory(SSLSocketClientUtils.getSSLSocketFactory(), SSLSocketClientUtils.getX509TrustManager())
+                .hostnameVerifier(SSLSocketClientUtils.getHostnameVerifier());
         for (Interceptor interceptor : getInterceptors()) {
             builder.addInterceptor(interceptor);
         }
@@ -87,4 +89,6 @@ public class MutableOkHttp extends OkHttpClient {
     protected synchronized void muteClient() {
         mOkHttpClient = newClient(mOkHttpClient.newBuilder());
     }
+
+
 }
