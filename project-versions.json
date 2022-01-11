@@ -1,81 +1,8 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "appVersionCode": 477,
-  "appVersionName": "4.2.15",
-  "devVersionCode": 477,
-  "devVersionName": "4.2.15.dev",
-=======
-  "appVersionCode": 480,
-  "appVersionName": "4.2.18",
-=======
-  "appVersionCode": 481,
-  "appVersionName": "4.2.19",
->>>>>>> 20df6fbd (升级掉4.1.9)
-=======
-  "appVersionCode": 482,
-  "appVersionName": "5.0.1",
-<<<<<<< HEAD
->>>>>>> fbc4a2f9 (升级到5.0.1)
-  "devVersionCode": 480,
-  "devVersionName": "4.2.17.dev",
->>>>>>> 1cb1d7c1 (规划路径4.2.18准备升级到5.0)
-=======
-  "devVersionCode": 485,
-  "devVersionName": "5.2.0.dev",
->>>>>>> b8709d3a (升级到5.2.0 dev 版)
-=======
-  "appVersionCode": 488,
-  "appVersionName": "5.2.0",
-  "devVersionCode": 485,
-  "devVersionName": "5.1.0",
->>>>>>> ff3b5dc6 (发布应用 商店 版本)
-=======
-  "appVersionCode": 490,
-  "appVersionName": "5.3.0",
-  "devVersionCode": 490,
-  "devVersionName": "5.3.0",
->>>>>>> dc15ea2c (发布5.3.0)
-=======
-  "appVersionCode": 491,
-  "appVersionName": "5.3.2",
-=======
-  "appVersionCode": 492,
-  "appVersionName": "5.4.0",
->>>>>>> dd34f415 (5.4.0)
-=======
-  "appVersionCode": 493,
-  "appVersionName": "5.5.1",
->>>>>>> 15296efd (升级到5.5.1)
-=======
-  "appVersionCode": 494,
-  "appVersionName": "5.5.2",
->>>>>>> 7c50da66 (升级版本文档)
-=======
-  "appVersionCode": 495,
-  "appVersionName": "5.5.3",
->>>>>>> 0c9c728b (升级5.5.3)
-=======
-  "appVersionCode": 496,
-  "appVersionName": "5.5.5",
->>>>>>> 64fdaeec (升级版本5.5.5 重要更新)
-=======
   "appVersionCode": 497,
   "appVersionName": "5.5.6",
->>>>>>> f7d1ee37 (升级5.5..6)
   "devVersionCode": 490,
   "devVersionName": "5.3.1",
->>>>>>> 83a2ca04 (升级5.3.2)
   "target": 26,
   "mini": 21,
   "compile": 29,
