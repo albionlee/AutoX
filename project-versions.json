@@ -72,7 +72,7 @@
   "devVersionName": "5.3.1",
 >>>>>>> 83a2ca04 (升级5.3.2)
   "target": 26,
-  "mini": 19,
+  "mini": 21,
   "compile": 29,
   "buildTool": "29.0.2"
 }
