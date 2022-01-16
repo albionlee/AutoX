@@ -76,6 +76,7 @@ public class ScriptRuntime {
     private static final String TAG = "ScriptRuntime";
 
 
+
     public static class Builder {
         private UiHandler mUiHandler;
         private Console mConsole;
@@ -233,8 +234,14 @@ public class ScriptRuntime {
         files = new Files(this);
         media = new Media(context, this);
         plugins = new Plugins(context, this);
+<<<<<<< HEAD
         zips = new SevenZip(context);
         ocr = new Ocr();
+=======
+        //增加paddleocr
+        ocr = new Ocr();
+//        zips = new SevenZip(context);
+>>>>>>> 702d3dae3427a4063e1100c7ddbd9250f650a4f7
     }
 
     public void init() {

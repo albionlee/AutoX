@@ -79,7 +79,18 @@ android {
     }
     packagingOptions{
         pickFirst 'lib/arm64-v8a/libc++_shared.so'
+<<<<<<< HEAD
     }
+=======
+//        pickFirst 'lib/arm64-v7a/libc++_shared.so'
+//        pickFirst 'lib/x86/libc++_shared.so'
+    }
+//    sourceSets {
+//        main {
+//            jniLibs.srcDirs = ['libs']
+//        }
+//    }
+>>>>>>> 702d3dae3427a4063e1100c7ddbd9250f650a4f7
 
     configurations.all {
         resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
@@ -103,7 +114,7 @@ android {
             // Specifies a list of ABIs that Gradle should create APKs for.
             include "armeabi-v8a"
 
-            // Specifies that we do not want to also generate a universal APK that includes all ABIs.
+                    // Specifies that we do not want to also generate a universal APK that includes all ABIs.
             universalApk false
         }
     }
